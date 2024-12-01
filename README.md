@@ -18,7 +18,7 @@ Un proyecto web inspirado en el clásico juego "Adivina Quién", pero con person
 ![Tablero de juego](./Capturas/GameBoard.png)
 *Tablero de juego*
 
-![Tablero de juego](./Capturas/GameBoard 2.png)
+![Tablero de juego](./Capturas/GameBoard_2.png)
 *Pregunta de la IA*
 
 _Agrega más capturas para mostrar el juego en acción._
