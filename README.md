@@ -6,22 +6,20 @@ Un proyecto web inspirado en el clásico juego "Adivina Quién", pero con person
 
 ## 📸 Capturas de Pantalla
 
-![Inicio](./Capturas/Start.png)
+![Inicio](./Capturas/Start.webp)
 *Pantalla de inicio*
 
-![Modos de Juego](./Capturas/GameModes.png)
+![Modos de Juego](./Capturas/GameModes.webp)
 *Selección de modos de juego*
 
-![Selector de personajes](./Capturas/CharacterSelector.png)
+![Selector de personajes](./Capturas/CharacterSelector.webp)
 *Selección de personajes*
 
-![Tablero de juego](./Capturas/GameBoard.png)
+![Tablero de juego](./Capturas/GameBoard.webp)
 *Tablero de juego*
 
-![Tablero de juego](./Capturas/GameBoard_2.png)
+![Tablero de juego](./Capturas/GameBoard_2.webp)
 *Pregunta de la IA*
-
-_Agrega más capturas para mostrar el juego en acción._
 
 ---
 
