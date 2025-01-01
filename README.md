@@ -1,67 +1,68 @@
-# Adivina Quién - Avengers Edition 🦸‍♂️🦸‍♀️
+# Guess Who - Avengers Edition 🦸‍♂️🦸‍♀️
 
-Un proyecto web inspirado en el clásico juego "Adivina Quién", pero con personajes del universo Avengers. Este juego es una **Single Page Application (SPA)** desarrollada utilizando **HTML, CSS y JavaScript**. 
-
----
-
-## 📸 Capturas de Pantalla
-
-![Inicio](./Capturas/Start.webp)
-*Pantalla de inicio*
-
-![Modos de Juego](./Capturas/GameModes.webp)
-*Selección de modos de juego*
-
-![Selector de personajes](./Capturas/CharacterSelector.webp)
-*Selección de personajes*
-
-![Tablero de juego](./Capturas/GameBoard.webp)
-*Tablero de juego*
-
-![Tablero de juego](./Capturas/GameBoard_2.webp)
-*Pregunta de la IA*
+A web project inspired by the classic "Guess Who" game, featuring characters from the Avengers universe. This game is a **Single Page Application (SPA)** developed using **HTML, CSS, and JavaScript**.
 
 ---
 
-## ✨ Funcionalidades
+## 📸 Screenshots
 
-- **Selección de Personajes:** Elige entre una variedad de héroes y villanos de los Avengers.
-- **Modo de Juego Interactivo:** Responde preguntas para deducir el personaje de tu oponente.
-- **Animaciones Dinámicas:** Usa **Lottie animations** para una experiencia visual inmersiva.
-- **IA Programada con Reglas de Producción:** Las decisiones del oponente están programadas utilizando un sistema de reglas de producción que emula un razonamiento lógico.
+![Start](./Capturas/Start.webp)
+*Start screen*
 
----
+![Game Modes](./Capturas/GameModes.webp)
+*Game modes selection*
 
-## 🌟 Tecnologías Usadas
+![Character Selector](./Capturas/CharacterSelector.webp)
+*Character selection*
 
-- **HTML:** Para la estructura de la página.
-- **CSS:** Para el diseño visual y responsividad.
-- **JavaScript:** Para la lógica del juego y la interacción.
-- **Lottie Animations:** Para incorporar animaciones ligeras y de alta calidad.
+![Game Board](./Capturas/GameBoard.webp)
+*Game board*
 
----
-
-## 🎮 Cómo Jugar
-
-1. Inicia el juego en la interfaz principal.
-2. Selecciona tu modo de juego de prefencia.
-3. Selecciona tu personaje o sigue las instrucciones que se te muestran.
-4. Responde las preguntas del sistema para filtrar opciones.
-5. Haz tu mejor deducción y ¡adivina quién es el personaje de tu oponente!
-6. Observa las animaciones dinámicas al avanzar o ganar el juego.
+![Game Board](./Capturas/GameBoard_2.webp)
+*AI question*
 
 ---
 
-## 🤖 Inteligencia Artificial con Reglas de Producción
+## ✨ Features
 
-El comportamiento de la inteligencia artificial del juego está basado en un sistema de **reglas de producción**, un enfoque lógico que permite a la máquina tomar decisiones a partir de condiciones definidas. Esto le da al juego una experiencia más estratégica e interactiva.
+- **Character Selection:** Choose from a variety of Avengers heroes and villains.
+- **Interactive Gameplay Mode:** Answer questions to deduce your opponent's character.
+- **Dynamic Animations:** Use **Lottie animations** for an immersive visual experience.
+- **AI Powered by Production Rules:** Opponent decisions are programmed using a production rules system that emulates logical reasoning.
 
 ---
 
-## 🚀 Instalación y Ejecución
+## 🌟 Technologies Used
 
-1. Clona este repositorio en VS Code:
+- **HTML:** For structuring the webpage.
+- **CSS:** For visual design and responsiveness.
+- **JavaScript:** For game logic and interaction.
+- **Lottie Animations:** To incorporate lightweight, high-quality animations.
+
+---
+
+## 🎮 How to Play
+
+1. Start the game from the main interface.
+2. Select your preferred game mode.
+3. Choose your character or follow the on-screen instructions.
+4. Answer system questions to narrow down options.
+5. Make your best guess to identify your opponent's character!
+6. Enjoy dynamic animations as you progress or win the game.
+
+---
+
+## 🤖 Artificial Intelligence with Production Rules
+
+The game's artificial intelligence behavior is based on a **production rules system**, a logical approach that allows the machine to make decisions based on defined conditions. This enhances the game's strategic and interactive experience.
+
+---
+
+## 🚀 Installation and Execution
+
+1. Clone this repository in VS Code:
    ```bash
    git clone https://github.com/KevinMG20/GuessWhoAvengers.git
-2. Corre el proyecto usando la extensión *Live Server*.
-3. **¡Diviertete!**.
+   ```
+2. Run the project using the *Live Server* extension.
+3. **Have fun!**
