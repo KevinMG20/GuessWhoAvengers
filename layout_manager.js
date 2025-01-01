@@ -20,7 +20,7 @@ let botSelectedCharacterID = 0;
 //#region Animations
 let countdownAnimation = bodymovin.loadAnimation({
     container: document.getElementById('animation container'),
-    path: 'CountDown.json',
+    path: './Recursos/CountDown.json',
     render: 'svg',
     loop: false,
     autoplay: false,
@@ -29,7 +29,7 @@ let countdownAnimation = bodymovin.loadAnimation({
 
 let trophyAnimation = bodymovin.loadAnimation({
     container: document.getElementById('trophy-container'),
-    path: 'Victory Trophy.json',
+    path: './Recursos/Victory Trophy.json',
     render: 'svg',
     loop: false,
     autoplay: false,
@@ -38,7 +38,7 @@ let trophyAnimation = bodymovin.loadAnimation({
 
 let confettiAnimation = bodymovin.loadAnimation({
     container: document.getElementById('confetti-container'),
-    path: 'Confetti.json',
+    path: './Recursos/Confetti.json',
     render: 'svg',
     loop: false,
     autoplay: false,
@@ -47,7 +47,7 @@ let confettiAnimation = bodymovin.loadAnimation({
 
 let foxyDefeatAnimation = bodymovin.loadAnimation({
     container: document.getElementById('foxy-container'),
-    path: 'Sad Fox.json',
+    path: './Recursos/Sad Fox.json',
     render: 'svg',
     loop: true,
     autoplay: false,
@@ -56,7 +56,7 @@ let foxyDefeatAnimation = bodymovin.loadAnimation({
 
 let bananaDefeatAnimation = bodymovin.loadAnimation({
     container: document.getElementById('banana-container'),
-    path: 'Angry Banana.json',
+    path: './Recursos/Angry Banana.json',
     render: 'svg',
     loop: true,
     autoplay: false,
@@ -65,7 +65,7 @@ let bananaDefeatAnimation = bodymovin.loadAnimation({
 
 let alienDefeatAnimation = bodymovin.loadAnimation({
     container: document.getElementById('alien-container'),
-    path: 'Angry Alien.json',
+    path: './Recursos/Angry Alien.json',
     render: 'svg',
     loop: true,
     autoplay: false,
@@ -410,10 +410,10 @@ characters.forEach(character => {
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <img src="${character.imagen}" alt="${character.nombre}">
+                <img src=${character.imagen} alt="${character.nombre}">
             </div>
             <div class="flip-card-back">
-                <img src="descartado3.png" class="selection-image">
+                <img src="./Recursos/descartado3.png" class="selection-image">
             </div>
         </div>
     </div>                            
@@ -1133,7 +1133,7 @@ function createPlayerSelection() {
     const selectedCharacter = document.createElement('div');
     selectedCharacter.classList.add('selected-character');
     selectedCharacter.innerHTML = `
-        <img src="${characters[selectedCharacterID].imagen}" class="selection-image">
+        <img src=${characters[selectedCharacterID].imagen} class="selection-image">
         <h3>${characters[selectedCharacterID].nombre}</h3>   
     `;
 
@@ -1161,7 +1161,7 @@ function createBotSelection() {
     const selectedCharacter = document.createElement('div');
     selectedCharacter.classList.add('selected-character');
     selectedCharacter.innerHTML = `
-        <img src="./desconocido2.png" class="selection-image">
+        <img src="./Recursos/desconocido2.png" class="selection-image">
         <h3>???</h3>   
     `;
 

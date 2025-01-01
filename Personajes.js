@@ -11,7 +11,7 @@ const characters = [
     {
         id: 0,
         nombre: "Iron Man",
-        imagen: "./Personajes/ironman.png",
+        imagen: "./Recursos/Personajes/ironman.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -41,7 +41,7 @@ const characters = [
     {
         id: 1,
         nombre: "Capitan América",
-        imagen: "./Personajes/capitan_america.png",
+        imagen: "./Recursos/Personajes/capitan_america.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -71,7 +71,7 @@ const characters = [
     {
         id: 2,
         nombre: "Groot",
-        imagen: "./Personajes/groot.jpeg",
+        imagen: "./Recursos/Personajes/groot.jpeg",
         atributos: {
             esHumano: false,
             esExtraterrestre: true,
@@ -101,7 +101,7 @@ const characters = [
     {
         id: 3,
         nombre: "Thor",
-        imagen: "./Personajes/thor.png",
+        imagen: "./Recursos/Personajes/thor.png",
         atributos: {
             esHumano: false,
             esExtraterrestre: true,
@@ -131,7 +131,7 @@ const characters = [
     {
         id: 4,
         nombre: "Hulk",
-        imagen: "./Personajes/hulk.webp",
+        imagen: "./Recursos/Personajes/hulk.webp",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -161,7 +161,7 @@ const characters = [
     {
         id: 5,
         nombre: "Viuda Negra",
-        imagen: "./Personajes/viuda_negra.png",
+        imagen: "./Recursos/Personajes/viuda_negra.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -191,7 +191,7 @@ const characters = [
     {
         id: 6,
         nombre: "Hawk Eye",
-        imagen: "./Personajes/hawk_eye.jpg",
+        imagen: "./Recursos/Personajes/hawk_eye.jpg",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -221,7 +221,7 @@ const characters = [
     {
         id: 7,
         nombre: "Vision",
-        imagen: "./Personajes/vision.png",
+        imagen: "./Recursos/Personajes/vision.png",
         atributos: {
             esHumano: false,
             esExtraterrestre: false,
@@ -251,7 +251,7 @@ const characters = [
     {
         id: 8,
         nombre: "Dr Strange",
-        imagen: "./Personajes/dr_strange.jpg",
+        imagen: "./Recursos/Personajes/dr_strange.jpg",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -281,7 +281,7 @@ const characters = [
     {
         id: 9,
         nombre: "Pantera Negra",
-        imagen: "./Personajes/pantera_negra.png",
+        imagen: "./Recursos/Personajes/pantera_negra.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -311,7 +311,7 @@ const characters = [
     {
         id: 10,
         nombre: "Ant-Man",
-        imagen: "./Personajes/antman.png",
+        imagen: "./Recursos/Personajes/antman.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -341,7 +341,7 @@ const characters = [
     {
         id: 11,
         nombre: "Star Lord",
-        imagen: "./Personajes/starlord.png",
+        imagen: "./Recursos/Personajes/starlord.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -371,7 +371,7 @@ const characters = [
     {
         id: 12,
         nombre: "Gamora",
-        imagen: "./Personajes/gamora.png",
+        imagen: "./Recursos/Personajes/gamora.png",
         atributos: {
             esHumano: false,
             esExtraterrestre: true,
@@ -401,7 +401,7 @@ const characters = [
     {
         id: 13,
         nombre: "Drax",
-        imagen: "./Personajes/drax.jpg",
+        imagen: "./Recursos/Personajes/drax.jpg",
         atributos: {
             esHumano: false,
             esExtraterrestre: true,
@@ -431,7 +431,7 @@ const characters = [
     {
         id: 14,
         nombre: "Rocket",
-        imagen: "./Personajes/rocket.png",
+        imagen: "./Recursos/Personajes/rocket.png",
         atributos: {
             esHumano: false,
             esExtraterrestre: true,
@@ -461,7 +461,7 @@ const characters = [
     {
         id: 15,
         nombre: "Nebula",
-        imagen: "./Personajes/nebula.png",
+        imagen: "./Recursos/Personajes/nebula.png",
         atributos: {
             esHumano: false,
             esExtraterrestre: true,
@@ -491,7 +491,7 @@ const characters = [
     {
         id: 16,
         nombre: "Mantis",
-        imagen: "./Personajes/mantis.png",
+        imagen: "./Recursos/Personajes/mantis.png",
         atributos: {
             esHumano: false,
             esExtraterrestre: true,
@@ -521,7 +521,7 @@ const characters = [
     {
         id: 17,
         nombre: "Spider-Man",
-        imagen: "./Personajes/spiderman.jpg",
+        imagen: "./Recursos/Personajes/spiderman.jpg",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -551,7 +551,7 @@ const characters = [
     {
         id: 18,
         nombre: "War Machine",
-        imagen: "./Personajes/war_machine.jpg",
+        imagen: "./Recursos/Personajes/war_machine.jpg",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -581,7 +581,7 @@ const characters = [
     {
         id: 19,
         nombre: "Falcón",
-        imagen: "./Personajes/falcon.jpg",
+        imagen: "./Recursos/Personajes/falcon.jpg",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -611,7 +611,7 @@ const characters = [
     {
         id: 20,
         nombre: "Nick Furia",
-        imagen: "./Personajes/nick_furia.png",
+        imagen: "./Recursos/Personajes/nick_furia.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -641,7 +641,7 @@ const characters = [
     {
         id: 21,
         nombre: "Winter Soldier",
-        imagen: "./Personajes/bucky_barnes.png",
+        imagen: "./Recursos/Personajes/bucky_barnes.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -671,7 +671,7 @@ const characters = [
     {
         id: 22,
         nombre: "María Hill",
-        imagen: "./Personajes/maria_hill.png",
+        imagen: "./Recursos/Personajes/maria_hill.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -701,7 +701,7 @@ const characters = [
     {
         id: 23,
         nombre: "Wong",
-        imagen: "./Personajes/wong.png",
+        imagen: "./Recursos/Personajes/wong.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -731,7 +731,7 @@ const characters = [
     {
         id: 24,
         nombre: "Okoye",
-        imagen: "./Personajes/okoye.png",
+        imagen: "./Recursos/Personajes/okoye.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -761,7 +761,7 @@ const characters = [
     {
         id: 25,
         nombre: "Shuri",
-        imagen: "./Personajes/shuri.png",
+        imagen: "./Recursos/Personajes/shuri.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -791,7 +791,7 @@ const characters = [
     {
         id: 26,
         nombre: "Ned",
-        imagen: "./Personajes/ned.png",
+        imagen: "./Recursos/Personajes/ned.png",
         atributos: {
             esHumano: true,
             esExtraterrestre: false,
@@ -821,7 +821,7 @@ const characters = [
     {
         id: 27,
         nombre: "Loki",
-        imagen: "./Personajes/loki.png",
+        imagen: "./Recursos/Personajes/loki.png",
         atributos: {
             esHumano: false,
             esExtraterrestre: true,

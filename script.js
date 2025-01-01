@@ -92,7 +92,7 @@ function goHome() {
 
 let animation = bodymovin.loadAnimation({
   container: document.getElementById('animation container'),
-  path: 'CountDown.json',
+  path: './Recursos/CountDown.json',
   render: 'svg',
   loop: false,
   autoplay: false,

@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("wallpaper.jpg");
+        url("./Recursos/wallpaper.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -175,7 +175,10 @@ body {
 }
 
 .character-card .character-name {
-    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+    margin-block: 16px 24px;
 }
 
 .character-list .character-card {
